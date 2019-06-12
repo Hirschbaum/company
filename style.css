@@ -1,0 +1,60 @@
+.splash-screen {
+    height: 100vh; /* den är 100% view height*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(jolan-wathelet-1264172-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.splash-screen .cta {
+    padding: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+#about .card {
+    border: none;
+}
+
+#about .card .top { /*középre teszi az ikonokat az about részben és megnöveli az ikonok méretét*/
+    text-align: center;
+    font-size: 4rem;/**/
+}
+
+#about h2 {
+    text-transform: uppercase;
+}
+
+#parallax {
+
+    background-image: url('water.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#parallax .tagline {
+
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+
+}
+
+#footer {
+
+    background-color: #423112;
+    color: #FFF;
+    padding: 10px;
+
+}
+
+
+
